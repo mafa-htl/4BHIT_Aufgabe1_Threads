@@ -2,10 +2,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        DatePrinter dp = new DatePrinter(20);
+        int limit = 200000;
+
+        DatePrinter dp = new DatePrinter(limit);
         Thread th1 = new Thread(dp);
 
-        CountPrinter cp = new CountPrinter(20);
+        CountPrinter cp = new CountPrinter(limit);
         Thread th2 = new Thread(cp);
 
         th1.start();
