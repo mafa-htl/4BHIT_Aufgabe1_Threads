@@ -1,3 +1,8 @@
+/**class DatePrinter
+ * @author Matteo Falkenberg
+ * @version 1.2, 30.09.2021
+ */
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
